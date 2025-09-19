@@ -1,0 +1,67 @@
+.find-your-place-image {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.find-your-place-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.find-your-place-data {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 100%;
+}
+
+.find-your-place-data .section-data {
+    max-width: 500px;
+    width: 100%;
+}
+
+.find-your-place-data .section-button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+@media (max-width: 992px) {
+    .find-your-place-image {
+        justify-content: start;
+        margin-bottom: 30px;
+    }
+
+    .find-your-place-data {
+        align-items: start;
+        text-align: start;
+    }
+
+    .find-your-place-data .section-data {
+        text-align: start;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .find-your-place-data {
+        order: 1;
+        align-items: start;
+    }
+
+    .find-your-place-data .section-data {
+        text-align: start;
+    }
+
+    .find-your-place-data .section-button {
+        padding: 6px 12px;
+        margin-top: 15px;
+    }
+
+    .find-your-place-image {
+        order: 2;
+    }
+}

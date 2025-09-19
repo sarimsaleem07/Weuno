@@ -1,0 +1,52 @@
+.booking-header .heading {
+    max-width: 750px;
+    font-size: clamp(36px, 25px, 50px);
+}
+
+.booking-header .section-button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+
+.booking-slider-container {
+    margin-top: 50px;
+}
+
+.booking-slider-container .slick-slide {
+    opacity: 0.6;
+    transform: scale(1);
+    transition: all 0.4s ease;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.booking-slider-container .slick-center {
+    opacity: 1 !important;
+    transform: scale(0.8);
+}
+
+.booking-slider-container .slick-list {
+    padding: 0px !important;
+}
+
+.booking-slider-images {
+       width: 100%;
+    /* min-width: 150p/x; */
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.booking-card-content h3 {
+    margin-top: 10px;
+    font-size: clamp(16px, 2vw, 30px);
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Fairplay Display";
+}
