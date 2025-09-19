@@ -1,7 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import "./experienceCuisine.css";
-
 import experienceCuisine from "../../assets/experianceCuisine.png";
 import experienceCuisine2 from "../../assets/experianceCuisine2.png";
 import experienceCuisine3 from "../../assets/experianceCuisine3.png";

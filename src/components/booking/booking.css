@@ -31,8 +31,7 @@
 }
 
 .booking-slider-images {
-       width: 100%;
-    /* min-width: 150p/x; */
+    width: 100%;
     max-width: 300px;
     height: auto;
     border-radius: 20px;

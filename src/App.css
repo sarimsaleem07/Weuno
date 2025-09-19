@@ -78,6 +78,7 @@
         font-size: 18px;
     }
 }
+
 @media (max-width: 992px) {
     .section-padding {
         padding-block: 40px;

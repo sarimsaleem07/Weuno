@@ -4,7 +4,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { SiSnapchat } from "react-icons/si";
 import { FaChevronDown } from "react-icons/fa";
-import { HiOutlineMenuAlt3, HiX } from "react-icons/hi"; // hamburger + close
+import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import "./header.css";
 import logo from "../../assets/logo.png";
 import ukLogo from "../../assets/ukLogo.png";
@@ -98,7 +98,6 @@ const Header = () => {
 
       {menuOpen && (
         <div className="mobile-menu">
-          {/* Top row inside menu: logo + close button */}
           <div className="mobile-menu-top">
             <img src={logo} alt="The Groves" className="mobile-menu-logo" />
             <HiX className="menu-icon" onClick={() => setMenuOpen(false)} />

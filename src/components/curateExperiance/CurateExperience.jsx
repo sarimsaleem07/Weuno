@@ -1,11 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 import experiences from "../../assets/experiences.png";
-import resturants from "../../assets/resturants.png";
 import events from "../../assets/events.png";
 import littleCrazy from "../../assets/littleCrazy.png";
 import picnicMarket from "../../assets/picnicMarket.png";
-import "./CurateExperience.css";
+import "./curateExperience.css";
 import { BsArrowRight } from "react-icons/bs";
 
 const CurateExperience = () => {
